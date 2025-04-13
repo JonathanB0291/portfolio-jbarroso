@@ -267,7 +267,7 @@ export default function Home() {
 
         .about p {
           font-size: 1.2rem;
-          color: #ccc;
+          color:rgb(81, 85, 83);
         }
 
         .projects h2 {
