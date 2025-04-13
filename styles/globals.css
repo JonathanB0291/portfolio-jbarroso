@@ -1,18 +1,92 @@
+/* Estilos globales */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #fff;
   color: #222;
 }
+
 * {
   box-sizing: border-box;
 }
 
 a {
-  color: green;
+  color: green; /* Mantiene el color verde para los enlaces */
   text-decoration: none;
+  transition: color 0.3s ease; /* Añadido para transición suave de color */
 }
 
 a:hover {
   text-decoration: underline;
+  color: #6a1b9a; /* Cambia el color del enlace cuando el mouse pasa sobre él */
+}
+
+a:active {
+  color: #333; /* Color cuando el enlace es activado */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.links a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333; /* Cambia el color del texto para mayor contraste */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #6a1b9a; /* Puedes personalizar este color */
+}
+
+/* Estilos para el enlace de descarga del CV */
+.download-cv {
+  font-size: 18px;
+  color: #333; /* Color por defecto */
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv:hover {
+  background-color: #6a1b9a; /* Cambia el color de fondo cuando pasa el mouse */
+  color: white; /* Cambia el color del texto al pasar el mouse */
+}
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links a {
+    margin: 10px 0;
+  }
+
+  .download-cv {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
