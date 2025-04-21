@@ -120,6 +120,11 @@ export default function Home() {
               <p>Pequeño juego interactivo desarrollado con Html, Css y JavaScript.</p>
               <a href="https://simon-dic.netlify.app/" target="_blank" rel="noopener noreferrer">Jugar</a>
             </div>
+            <div className="project-card">
+              <h3>Clima actual</h3>
+              <p>Pequeña pagina del clima desarrollado con Html, Css y JavaScript.</p>
+              <a href="https://clima-ya.netlify.app/" target="_blank" rel="noopener noreferrer">Visitar sitio</a>
+            </div>
           </div>
         </section>
 
