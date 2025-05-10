@@ -69,7 +69,7 @@ export default function Home() {
             <a href="https://github.com/JonathanB0291" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="../cv/Cv- Jonathan Barroso 2025.pdf" download="Mi_CV.pdf" className="download-cv">CV</a>
+            <a href="/cv/CV-JonathanBarroso-2025.pdf" download="Mi_CV.pdf" className="download-cv">CV</a>
           </div>
         </nav>
       </header>
@@ -97,32 +97,32 @@ export default function Home() {
             </div>
             <div className="project-card">
               <h3>Juego del Ahorcado</h3>
-              <p>Pequeño juego interactivo desarrollado con JavaScript.</p>
+              <p>Juego interactivo desarrollado con JavaScript.</p>
               <a href="https://ahorcado-juego.netlify.app/" target="_blank" rel="noopener noreferrer">Jugar</a>
             </div>
             <div className="project-card">
               <h3>Juego adivina el número</h3>
-              <p>Pequeño juego interactivo desarrollado con JavaScript.</p>
+              <p>Juego interactivo desarrollado con JavaScript.</p>
               <a href="https://adivinasunumero.netlify.app/" target="_blank" rel="noopener noreferrer">Jugar</a>
             </div>
             <div className="project-card">
               <h3>Juegos minimalistas</h3>
-              <p>Pequeño juego interactivo desarrollado con JavaScript.</p>
+              <p>Juego interactivo desarrollado con JavaScript.</p>
               <a href="https://juegosminimalistas.netlify.app/" target="_blank" rel="noopener noreferrer">Jugar</a>
             </div>
             <div className="project-card">
               <h3>Mateando</h3>
-              <p>Pequeña pagina de venta de mates.</p>
+              <p>Pagina de venta de mates.</p>
               <a href="https://mateandoestoy.netlify.app/" target="_blank" rel="noopener noreferrer">Visitar sitio</a>
             </div>
             <div className="project-card">
               <h3>Juego Simon Dice</h3>
-              <p>Pequeño juego interactivo desarrollado con Html, Css y JavaScript.</p>
+              <p>Juego interactivo desarrollado con Html, Css y JavaScript.</p>
               <a href="https://simon-dic.netlify.app/" target="_blank" rel="noopener noreferrer">Jugar</a>
             </div>
             <div className="project-card">
               <h3>Clima actual</h3>
-              <p>Pequeña pagina del clima desarrollado con Html, Css y JavaScript.</p>
+              <p>Pagina del clima desarrollado con Html, Css y JavaScript.</p>
               <a href="https://clima-ya.netlify.app/" target="_blank" rel="noopener noreferrer">Visitar sitio</a>
             </div>
           </div>
